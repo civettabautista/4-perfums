@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-parfurm · Perfumería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="cabecera">
+        <a class="logo" href="index.html">
+            <img class="logo-icono" src="img/logo-4parfum.svg" alt="4Parfum · All for parfums">
+        </a>
+        <nav>
+            <a href="index.html#catalogo" class="activo">Perfumes</a>
+            <a href="index.html#notas">Notas</a>
+        </nav>
+        <a href="registro.html" class="boton-registro">Registrarme</a>
+    </header>
+
+    <main>
+        <section class="portada">
+            <div>
+                <h1>Un perfume se elige por lo que despierta</h1>
+                <p>Las fragancias más elegidas del mundo, originales y en 50 y 100 ml. Contanos qué notas te gustan y te recomendamos las que van con vos.</p>
+                <a href="#catalogo" class="boton-principal">Ver perfumes</a>
+            </div>
+            <img class="portada-imagen" src="img/ola.jpg" alt="Ola rompiendo en el mar al atardecer">
+        </section>
+
+        <section class="catalogo" id="catalogo">
+            <h2>Perfumes</h2>
+            <div class="grilla-productos">
+
+                <article class="producto">
+                    <div class="foto-producto">
+                        <img src="img/chanel-n5.jpg" alt="Frasco de Chanel N°5">
+                    </div>
+                    <p class="marca">Chanel</p>
+                    <h3>N°5</h3>
+                    <p class="notas-producto">Aldehídos, rosa de mayo, sándalo</p>
+                    <p class="precio">$245.000 <span>50 ml</span></p>
+                    <button type="button" class="comprar">Comprar ahora</button>
+                </article>
+
+                <article class="producto">
+                    <div class="foto-producto">
+                        <img src="img/dior-sauvage.jpg" alt="Frasco de Dior Sauvage">
+                    </div>
+                    <p class="marca">Dior</p>
+                    <h3>Sauvage</h3>
+                    <p class="notas-producto">Bergamota, pimienta, ambroxan</p>
+                    <p class="precio">$210.000 <span>100 ml</span></p>
+                    <button type="button" class="comprar">Comprar ahora</button>
+                </article>
+
+                <article class="producto">
+                    <div class="foto-producto">
+                        <img src="img/acqua-di-gio.jpg" alt="Frasco de Acqua di Gio">
+                    </div>
+                    <p class="marca">Giorgio Armani</p>
+                    <h3>Acqua di Gio</h3>
+                    <p class="notas-producto">Notas marinas, bergamota, romero</p>
+                    <p class="precio">$165.000 <span>100 ml</span></p>
+                    <button type="button" class="comprar">Comprar ahora</button>
+                </article>
+
+                <article class="producto">
+                    <div class="foto-producto">
+                        <img src="img/la-vie-est-belle.jpg" alt="Frasco de La Vie Est Belle">
+                    </div>
+                    <p class="marca">Lancôme</p>
+                    <h3>La Vie Est Belle</h3>
+                    <p class="notas-producto">Iris, praliné, vainilla</p>
+                    <p class="precio">$175.000 <span>50 ml</span></p>
+                    <button type="button" class="comprar">Comprar ahora</button>
+                </article>
+
+                <article class="producto">
+                    <div class="foto-producto">
+                        <img src="img/black-opium.jpg" alt="Frasco de Black Opium">
+                    </div>
+                    <p class="marca">Yves Saint Laurent</p>
+                    <h3>Black Opium</h3>
+                    <p class="notas-producto">Café, flor de naranjo, vainilla</p>
+                    <p class="precio">$180.000 <span>50 ml</span></p>
+                    <button type="button" class="comprar">Comprar ahora</button>
+                </article>
+
+                <article class="producto">
+                    <div class="foto-producto">
+                        <img src="img/bleu-de-chanel.jpg" alt="Frasco de Bleu de Chanel">
+                    </div>
+                    <p class="marca">Chanel</p>
+                    <h3>Bleu de Chanel</h3>
+                    <p class="notas-producto">Pomelo, incienso, cedro</p>
+                    <p class="precio">$260.000 <span>100 ml</span></p>
+                    <button type="button" class="comprar">Comprar ahora</button>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="notas" id="notas">
+            <h2>Cómo se lee un perfume</h2>
+            <ol class="piramide">
+                <li>
+                    <h3>Notas de salida</h3>
+                    <p>Lo primero que sentís, durante unos 15 minutos. Suelen ser cítricas o aromáticas.</p>
+                </li>
+                <li>
+                    <h3>Notas de corazón</h3>
+                    <p>Aparecen después y duran horas. Acá viven las flores, las frutas y las especias.</p>
+                </li>
+                <li>
+                    <h3>Notas de fondo</h3>
+                    <p>Las que quedan en la piel al final del día: maderas, ámbar, vainilla, almizcle.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="invitacion">
+            <div>
+                <h2>¿Querés recomendaciones a tu medida?</h2>
+                <p>Registrate, contanos tus notas preferidas y te sugerimos los perfumes que mejor van con vos.</p>
+            </div>
+            <a href="registro.html" class="boton-principal">Registrarme</a>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <div class="logo">
+            <img class="logo-icono" src="img/logo-4parfum.svg" alt="4Parfum · All for parfums">
+        </div>
+        <p>Perfumería · Buenos Aires</p>
+    </footer>
+
+</body>
+</html>
