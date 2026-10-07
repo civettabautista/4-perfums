@@ -15,7 +15,9 @@
             <img class="logo-icono" src="img/logo-4parfum.svg" alt="4Parfum · All for parfums">
         </a>
         <nav>
-            <a href="index.html#catalogo" class="activo">Perfumes</a>
+            <a href="index.html#destacados" class="activo">Destacados</a>
+            <a href="hombre.html">Hombre</a>
+            <a href="mujer.html">Mujer</a>
             <a href="index.html#notas">Notas</a>
         </nav>
         <a href="registro.html" class="boton-registro">Registrarme</a>
@@ -26,16 +28,22 @@
             <div>
                 <h1>Un perfume se elige por lo que despierta</h1>
                 <p>Las fragancias más elegidas del mundo, originales y en 50 y 100 ml. Contanos qué notas te gustan y te recomendamos las que van con vos.</p>
-                <a href="#catalogo" class="boton-principal">Ver perfumes</a>
+                <a href="#destacados" class="boton-principal">Ver destacados</a>
+                <ul class="ventajas">
+                    <li>100% originales</li>
+                    <li>Envíos a todo el país</li>
+                    <li>3 cuotas sin interés</li>
+                </ul>
             </div>
             <img class="portada-imagen" src="img/ola.jpg" alt="Ola rompiendo en el mar al atardecer">
         </section>
 
-        <section class="catalogo" id="catalogo">
-            <h2>Perfumes</h2>
+        <section class="catalogo" id="destacados">
+            <h2>Perfumes destacados</h2>
             <div class="grilla-productos">
 
                 <article class="producto">
+                    <span class="etiqueta">Más vendido</span>
                     <div class="foto-producto">
                         <img src="img/chanel-n5.jpg" alt="Frasco de Chanel N°5">
                     </div>
@@ -47,6 +55,7 @@
                 </article>
 
                 <article class="producto">
+                    <span class="etiqueta">Más vendido</span>
                     <div class="foto-producto">
                         <img src="img/dior-sauvage.jpg" alt="Frasco de Dior Sauvage">
                     </div>
@@ -54,28 +63,6 @@
                     <h3>Sauvage</h3>
                     <p class="notas-producto">Bergamota, pimienta, ambroxan</p>
                     <p class="precio">$210.000 <span>100 ml</span></p>
-                    <button type="button" class="comprar">Comprar ahora</button>
-                </article>
-
-                <article class="producto">
-                    <div class="foto-producto">
-                        <img src="img/acqua-di-gio.jpg" alt="Frasco de Acqua di Gio">
-                    </div>
-                    <p class="marca">Giorgio Armani</p>
-                    <h3>Acqua di Gio</h3>
-                    <p class="notas-producto">Notas marinas, bergamota, romero</p>
-                    <p class="precio">$165.000 <span>100 ml</span></p>
-                    <button type="button" class="comprar">Comprar ahora</button>
-                </article>
-
-                <article class="producto">
-                    <div class="foto-producto">
-                        <img src="img/la-vie-est-belle.jpg" alt="Frasco de La Vie Est Belle">
-                    </div>
-                    <p class="marca">Lancôme</p>
-                    <h3>La Vie Est Belle</h3>
-                    <p class="notas-producto">Iris, praliné, vainilla</p>
-                    <p class="precio">$175.000 <span>50 ml</span></p>
                     <button type="button" class="comprar">Comprar ahora</button>
                 </article>
 
@@ -91,6 +78,7 @@
                 </article>
 
                 <article class="producto">
+                    <span class="etiqueta">Favorito</span>
                     <div class="foto-producto">
                         <img src="img/bleu-de-chanel.jpg" alt="Frasco de Bleu de Chanel">
                     </div>
@@ -102,6 +90,25 @@
                 </article>
 
             </div>
+        </section>
+
+        <section class="categorias">
+            <a href="hombre.html" class="categoria hombre">
+                <div>
+                    <p>Frescos, amaderados y especiados</p>
+                    <h2>Para él</h2>
+                    <span>Ver perfumes de hombre →</span>
+                </div>
+                <img src="img/bleu-de-chanel.jpg" alt="">
+            </a>
+            <a href="mujer.html" class="categoria mujer">
+                <div>
+                    <p>Florales, dulces y orientales</p>
+                    <h2>Para ella</h2>
+                    <span>Ver perfumes de mujer →</span>
+                </div>
+                <img src="img/chanel-n5.jpg" alt="">
+            </a>
         </section>
 
         <section class="notas" id="notas">
@@ -132,10 +139,26 @@
     </main>
 
     <footer class="pie">
-        <div class="logo">
-            <img class="logo-icono" src="img/logo-4parfum.svg" alt="4Parfum · All for parfums">
+        <div class="pie-columnas">
+            <div>
+                <div class="logo">
+                    <img class="logo-icono" src="img/logo-4parfum.svg" alt="4Parfum · All for parfums">
+                </div>
+                <p>Perfumería · Buenos Aires</p>
+            </div>
+            <div>
+                <h4>Perfumes</h4>
+                <a href="index.html#destacados">Destacados</a>
+                <a href="hombre.html">Hombre</a>
+                <a href="mujer.html">Mujer</a>
+            </div>
+            <div>
+                <h4>4Parfum</h4>
+                <a href="index.html#notas">Cómo se lee un perfume</a>
+                <a href="registro.html">Registrarme</a>
+            </div>
         </div>
-        <p>Perfumería · Buenos Aires</p>
+        <p class="pie-legal">© 2026 4Parfum · Todos los derechos reservados</p>
     </footer>
 
 </body>
